@@ -11,3 +11,9 @@ body{
     list-style-type: none;
     padding: 2.5rem 6rem ;
 }
+.col-4 {
+    background-color: beige;
+}
+.col-8 {
+    background-color: rgb(164, 164, 247);
+}
