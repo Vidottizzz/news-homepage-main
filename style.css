@@ -6,14 +6,54 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+header {
+    padding: 2.5rem 8rem;
+}
 body{
     font-size: 100%;
     list-style-type: none;
-    padding: 2.5rem 6rem ;
+    padding: 2.5rem 2rem ;
+}
+.container {
+    width: 250rem;
+    padding: 0 8rem;
+    margin-left: 1.3rem;
 }
 .col-4 {
-    background-color: beige;
+    background-color: rgb(199, 199, 24);
 }
 .col-8 {
     background-color: rgb(164, 164, 247);
 }
+.col-md-4 {
+    background-color: violet;
+}
+.grid1 {
+    height: 19rem;
+    width: 80rem;
+    background-image: url(/assets/images/image-web-3-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    width: 10rem;
+}
+.grid2 {
+   position:absolute;
+   left: 81.5rem;
+   width: 27rem;
+   height: 32.5rem;
+}
+.mgn1 {
+    padding-top: 1rem;
+    width: 92rem;
+    height: 13rem;
+}
+.grid3{
+    width: 61.5rem;
+}
+.grid4 {
+    padding-top: 1rem;
+    width: 96rem;
+    height: 10rem;
+    }
