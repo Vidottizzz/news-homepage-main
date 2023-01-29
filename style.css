@@ -50,10 +50,20 @@ padding-bottom: 0;
 #news h2{
     color: var(--Softorange);
     font-weight: bold;
+    font-size: 2.4rem;
+    margin-top: 0.4rem;
 }
 #news .p-title {
     font-weight: bold;
-    font-size: 1.15rem;
+    font-size: 1.45rem;
+}
+#news .semi-title {
+    color: var(--Grayishblue);
+    font-size: 1.13rem;
+    padding-bottom: 1.2rem;
+}
+hr {
+    margin-bottom: 1.8rem;
 }
 
 #hold-readmore2 button {
@@ -106,4 +116,21 @@ h1 {
 }
 .attribution {
     margin-top: 6rem;
+}
+.smaller-images {
+    width: 8rem;
+    height: 10rem;
+   margin-right: 1.6rem;
+}
+.hold-sml-imgs p:first-of-type {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--Grayishblue);
+    margin-bottom: 0.3rem;
+}
+.hold-sml-imgs h3 {
+    font-size:  1.3rem;
+    font-weight: bold;
 }
