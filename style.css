@@ -65,6 +65,10 @@ padding-bottom: 0;
     font-weight: bold;
     font-size: 1.45rem;
 }
+#news .p-title:hover {
+    cursor: pointer;
+    color: var(--Softorange);
+}
 #news .semi-title {
     color: var(--Grayishblue);
     font-size: 1.13rem;
@@ -74,22 +78,11 @@ hr {
     margin-bottom: 1.8rem;
 }
 
-#hold-readmore2 button {
-    margin-top: 1rem;
-    width: 12rem;
-    letter-spacing: 0.2rem;
-    font-weight: bold;
-    font-size: 0.95rem;
-    padding: 0.7rem;
-    color: white;
-    background-color: var(--Softred);
-
-}
 #read-more-box {
     margin-left:20px;
     width: 20rem;
     position: absolute;
-    top: 24.5rem;
+    top: 24.12rem;
     height: 10.45rem;
     background-color: white;
     
@@ -108,16 +101,30 @@ h1 {
     width: 20rem;
 }
 #hold-readmore h1 {
-
+    
     font-size: 4rem;
 }
 
 #hold-readmore2 {
     position: absolute;
     width: 29.5rem;
-    top: 25.1rem;
+    top: 24.4rem;
     left: 45rem;
-
+    
+}
+#hold-readmore2 button {
+    margin-top: 1rem;
+    width: 14rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.9rem;
+    color: white;
+    background-color: var(--Softred);
+    border-radius: 0px;
+}
+#hold-readmore2 button:hover {
+    background-color: black;
 }
 #hold-readmore2 p {
     font-size: 1.34rem;
@@ -129,7 +136,7 @@ h1 {
     margin-right: 0;
     padding-right: 0;
     margin-top: 4.5rem;
-    margin-right: 6.3rem;
+    margin-right: 6.32rem;
    
  
 }
@@ -137,8 +144,8 @@ footer .hold-sml-imgs:first-of-type {
     margin-left: 13.8rem;
 }
 .smaller-images {
-    width: 10rem;
-    height: 11.8rem;
+    width: 9.8rem;
+    height: 11.2rem;
    margin-right: 1.4rem;
 }
 
@@ -152,9 +159,14 @@ footer .hold-sml-imgs:first-of-type {
     margin-bottom: 0.3rem;
 }
 .hold-sml-imgs h3 {
+    width: 16.49rem;
     font-size:  1.5rem;
     font-weight: bold;
 }
 .hold-subtext {
     width: 14rem;
+}
+.hold-subtext h3:hover{
+    cursor: pointer ;
+    color: var(--Softorange);
 }
