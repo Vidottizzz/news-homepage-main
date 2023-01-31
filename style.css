@@ -1,8 +1,8 @@
 :root {
     /* ### Primary */
-
---Softorange: hsl(35, 77%, 62%);
---Softred: hsl(5, 85%, 63%);
+    
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
 
 /* ### Neutral */
 
@@ -22,10 +22,8 @@
 header {
     padding: 2.5rem 12rem;
 }
-
-.nav-item a {
-    font-size:1.28rem;
-    margin-right: 1rem;
+hr {
+    margin-bottom: 1.8rem;
 }
 main{
     position: relative;
@@ -34,6 +32,30 @@ body{
     font-size: 100%;
     list-style-type: none;
     padding: 2.5rem 2rem ;
+}
+#nav-itens0:hover {
+    color: var(--Softorange);
+    transition: 0.32s; 
+}
+#nav-itens1:hover {
+    color: var(--Softorange);
+    transition: 0.32s; 
+}
+#nav-itens2:hover {
+    color: var(--Softorange);
+    transition: 0.32s; 
+}
+#nav-itens3:hover {
+    color: var(--Softorange);
+    transition: 0.32s; 
+}
+#nav-itens4:hover {
+    color: var(--Softorange);
+    transition: 0.32s; 
+}
+.nav-item a {
+    font-size:1.28rem;
+    margin-right: 1rem;
 }
 #first-img {
 width: 62rem;
@@ -67,15 +89,13 @@ padding-bottom: 0;
 }
 #news .p-title:hover {
     cursor: pointer;
+    transition: 0.32s; 
     color: var(--Softorange);
 }
 #news .semi-title {
     color: var(--Grayishblue);
     font-size: 1.13rem;
     padding-bottom: 1.2rem;
-}
-hr {
-    margin-bottom: 1.8rem;
 }
 
 #read-more-box {
@@ -125,20 +145,18 @@ h1 {
 }
 #hold-readmore2 button:hover {
     background-color: black;
+    transition: 0.32s; 
 }
 #hold-readmore2 p {
     font-size: 1.34rem;
-}
-.attribution {
-    margin-top: 6rem;
 }
 .hold-sml-imgs {
     margin-right: 0;
     padding-right: 0;
     margin-top: 4.5rem;
-    margin-right: 6.32rem;
-   
- 
+    margin-right: 6.45rem;
+    
+    
 }
 footer .hold-sml-imgs:first-of-type {
     margin-left: 13.8rem;
@@ -146,8 +164,9 @@ footer .hold-sml-imgs:first-of-type {
 .smaller-images {
     width: 9.8rem;
     height: 11.2rem;
-   margin-right: 1.4rem;
+    margin-right: 1.4rem;
 }
+
 
 .hold-sml-imgs p:first-of-type {
 
@@ -168,5 +187,14 @@ footer .hold-sml-imgs:first-of-type {
 }
 .hold-subtext h3:hover{
     cursor: pointer ;
-    color: var(--Softorange);
+    color: var(--Softred);
+    transition: 0.32s; 
+}
+.attribution {
+    margin-top: 3rem;
+    font-size: 0.95rem;
+}
+.attribution a:hover {
+color: var(--Softorange);
+transition: 0.32s; 
 }
