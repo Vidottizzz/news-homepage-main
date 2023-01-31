@@ -22,6 +22,11 @@
 header {
     padding: 2.5rem 12rem;
 }
+
+.nav-item a {
+    font-size:1.28rem;
+    margin-right: 1rem;
+}
 main{
     position: relative;
 }
@@ -38,7 +43,7 @@ padding-bottom: 0;
 }
 #news {
     width: 25rem;
-    height: 38.4rem;
+    height: 38rem;
     margin-bottom: 1.5rem;
     background-color: var(--Verydarkblue);
     padding: 1.5rem;
@@ -46,6 +51,9 @@ padding-bottom: 0;
 }
 #news p {
     color:white;
+}
+.navbar-brand img {
+    width: 5.2rem;
 }
 #news h2{
     color: var(--Softorange);
@@ -120,7 +128,7 @@ h1 {
 .hold-sml-imgs {
     margin-right: 0;
     padding-right: 0;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
     margin-right: 6.3rem;
    
  
