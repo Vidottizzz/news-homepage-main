@@ -18,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Inter";
 }
 header {
     padding: 2.5rem 12rem;
@@ -33,6 +34,10 @@ body{
     list-style-type: none;
     padding: 2.5rem 2rem ;
 }
+header ul {
+    margin-left: 50rem;
+}
+
 #nav-itens0:hover {
     color: var(--Softorange);
     transition: 0.32s; 
@@ -107,9 +112,9 @@ padding-bottom: 0;
     background-color: white;
     
 }
-h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+#hold-readmore #hold-more-box h1 {
+    font-weight: bo;
+    font-size: 10rem;
 }
 #hold-main {
     width: 115rem;    
@@ -121,8 +126,8 @@ h1 {
     width: 20rem;
 }
 #hold-readmore h1 {
-    
-    font-size: 4rem;
+    font-weight: 800;
+    font-size:3.865rem;
 }
 
 #hold-readmore2 {
@@ -178,7 +183,7 @@ footer .hold-sml-imgs:first-of-type {
     margin-bottom: 0.3rem;
 }
 .hold-sml-imgs h3 {
-    width: 16.49rem;
+    width: 17.3rem;
     font-size:  1.5rem;
     font-weight: bold;
 }
@@ -197,4 +202,93 @@ footer .hold-sml-imgs:first-of-type {
 .attribution a:hover {
 color: var(--Softorange);
 transition: 0.32s; 
+}
+
+/* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
+
+@media (max-width: 1620px) {
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+header ul {
+    margin-left: 24.4rem;
+}
+#hold-readmore #read-more-box h1 {
+
+    font-size: 4.1rem;
+    
+}
+#hold-readmore2 p {
+ font-size:1.3rem;
+}
+#news {
+    position: absolute;
+    left: 49.2rem;
+    top: 24.5rem;
+}
+#read-more-box {
+    margin-left:20px;
+    width: 20rem;
+    position: absolute;
+    top: 24.5rem;
+    height: 10.45rem;
+    background-color: white;
+}
+#hold-readmore h1 {
+    font-weight: 800;
+    font-size:2rem;
+}
+#hold-readmore2 button {
+    
+    margin-top: 1rem;
+    width: 14rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.9rem;
+    color: white;
+    background-color: var(--Softred);
+    border-radius: 0px;
+}
+
+#hold-readmore {
+    padding: 0rem 13.5rem;
+    width: 20rem;
+}
+#hold-readmore h1 {
+    font-weight: 800;
+    font-size:3.865rem;
+}
+
+#hold-readmore2 {
+    position: absolute;
+    width: 29.5rem;
+    top: 48.65rem;
+    left: 13.8rem;
+    
+}
+.hold-sml-imgs {
+    margin-top: 41rem;
+}
+.hold-sml-imgs:last-of-type {
+    position: absolute;
+    top: 50rem;
+    left: 15.8rem;    
+}
+.hold-sml-imgs:nth-child(1) {
+    margin-left: 5rem;
+}
+.attribution {
+    margin-top: 17rem;
+}
+}
+
+/* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
+
+@media (max-width: 1200px) {
+body {
+background-color:aqua ;
+}
+
 }
