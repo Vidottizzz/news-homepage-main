@@ -33,6 +33,7 @@ body{
     font-size: 100%;
     list-style-type: none;
     padding: 2.5rem 2rem ;
+    margin: auto;
 }
 header ul {
     margin-left: 50rem;
@@ -63,10 +64,16 @@ header ul {
     margin-right: 1rem;
 }
 #first-img {
-width: 62rem;
-height:23rem ;
-padding-bottom: 0;
 
+}
+#imagem-fundo {
+    background-image: url(/assets/images/image-web-3-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62rem;
+    height:23rem ;
+    padding-bottom: 0;
+    
 }
 #news {
     width: 25rem;
@@ -288,7 +295,19 @@ header ul {
 
 @media (max-width: 1200px) {
 body {
-background-color:aqua ;
-}
 
+
+}
+#imagem-fundo {
+    background-image: url(/assets/images/image-web-3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 43rem;
+    height:23rem ;
+    padding-bottom: 0;
+    
+}
+header ul {
+    margin-left: 6.2rem;
+}
 }
