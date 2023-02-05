@@ -310,4 +310,45 @@ body {
 header ul {
     margin-left: 6.2rem;
 }
+#news {
+top: 71rem;
+left: 19.3rem;
+}
+
+#hold-readmore2 {
+    position: absolute;
+    width: 29.5rem;
+    top: 48.8rem;
+    left: 13.8rem;
+    
+}
+#box-readmore {
+    margin-left: 10rem;
+}
+#hold-readmore {
+padding-bottom: 30rem;
+}
+#hold-readmore2 button {
+    margin-top: 1rem;
+    width: 14rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.9rem;
+    color: white;
+    background-color: var(--Softred);
+    border-radius: 0px;
+    margin-left: 12.6rem;
+}
+ h1 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+}
+
+#hold-readmore2 p {
+    font-size: 1.34rem;
+    margin-left: 10rem;
+    text-align: center;
+}
 }
