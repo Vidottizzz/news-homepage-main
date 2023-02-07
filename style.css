@@ -30,15 +30,22 @@ main{
     position: relative;
 }
 body{
+    width: 100%;
     font-size: 100%;
     list-style-type: none;
     padding: 2.5rem 2rem ;
-    margin: auto;
+    overflow-x: hidden;
+   
+    margin: 0 auto;
 }
 header ul {
     margin-left: 50rem;
 }
-
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+}
 #nav-itens0:hover {
     color: var(--Softorange);
     transition: 0.32s; 
@@ -76,6 +83,7 @@ header ul {
     
 }
 #news {
+    margin: auto;
     width: 25rem;
     height: 38rem;
     margin-bottom: 1.5rem;
@@ -214,7 +222,9 @@ transition: 0.32s;
 /* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
 
 @media (max-width: 1620px) {
-
+* {
+    
+}
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -298,6 +308,7 @@ body {
 
 
 }
+
 #imagem-fundo {
     background-image: url(/assets/images/image-web-3-mobile.jpg);
     background-repeat: no-repeat;
@@ -312,7 +323,10 @@ header ul {
 }
 #news {
 top: 71rem;
-left: 19.3rem;
+left: 19.45rem;
+}
+#news h2 {
+ text-align: center;
 }
 
 #hold-readmore2 {
@@ -351,4 +365,37 @@ padding-bottom: 30rem;
     margin-left: 10rem;
     text-align: center;
 }
+.hold-sml-imgs{
+    padding-top: 38rem;
+}
+.hold-sml-imgs:last-of-type {
+    position: absolute;
+    top: 81rem;
+    left: 21.4rem;    
+}
+
+.hold-sml-imgs:nth-child(1) {
+    position: absolute;
+    left: 7.6rem;
+    top: 48rem;
+
+
+}
+.hold-sml-imgs:nth-child(2) {
+    position: absolute;
+    left: 21.4rem;
+    top: 65rem;
+
+
+}
+.attribution {
+    margin-top: 110rem;
+}
+}
+
+/* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
+@media (max-width: 920px) {
+
+
+    
 }
