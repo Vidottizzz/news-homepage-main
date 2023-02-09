@@ -411,7 +411,7 @@ padding-bottom: 30rem;
 /* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
 @media (max-width: 600px) {
     header {
-        padding: 2.5rem 12rem;
+        padding: 2rem 1rem;
     }
     hr {
         margin-bottom: 1.8rem;
@@ -419,6 +419,22 @@ padding-bottom: 30rem;
     main{
         position: relative;
     }
+    ul {
+        /* position: absolute; */
+        
+        left: 0;
+    }
+    .navbar-collapse {
+        flex-basis:100%;
+        flex-grow: 1;
+        margin-left:13.5rem;
+        text-align: center;
+    
+
+    }
+    button.navbar-toggler {
+        margin-right: 1rem;
+    }    
     body{
         font-size: 100%;
         list-style-type: none;
@@ -429,9 +445,11 @@ padding-bottom: 30rem;
         background-image: url(/assets/images/image-web-3-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 20rem;
+        width: 25rem;
         height:23rem ;
         padding-bottom: 0;
+        left: 3rem;
+        position: absolute;
         
     }
     header ul {
@@ -439,17 +457,30 @@ padding-bottom: 30rem;
     }
     #news {
     top: 71rem;
-    left: 19.45rem;
+    left: 1.55rem;
     }
     #news h2 {
      text-align: center;
     }
+    .hold-subtext h3 {
+        font-size: 1.3rem;
+    }
+    .hold-subtext h3:hover {
+        cursor: pointer;
+        
+    }
+     #read-more-box {
+        position: absolute;
+        width: 20rem;
+        top: 26rem;
+        left: 4.5rem;
+     }
     
     #hold-readmore2 {
         position: absolute;
         width: 29.5rem;
-        top: 48.8rem;
-        left: 13.8rem;
+        top: 49rem;
+        left: -4rem;
         
     }
     #box-readmore {
@@ -482,29 +513,30 @@ padding-bottom: 30rem;
         text-align: center;
     }
     .hold-sml-imgs{
-        padding-top: 38rem;
+        padding-top: 32rem;
     }
     .hold-sml-imgs:last-of-type {
         position: absolute;
-        top: 81rem;
-        left: 21.4rem;    
+        top: 74rem;
+        left: 3rem;    
     }
     
     .hold-sml-imgs:nth-child(1) {
         position: absolute;
-        left: 7.6rem;
+        left: -10.3rem;
         top: 48rem;
     
     
     }
     .hold-sml-imgs:nth-child(2) {
         position: absolute;
-        left: 21.4rem;
-        top: 65rem;
+        left: 3rem;
+        top: 61rem;
     
     
     }
     .attribution {
-        margin-top: 110rem;
+        margin-top: 124rem;
+        margin-bottom: 1rem;
     }
 }
