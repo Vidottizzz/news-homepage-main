@@ -30,21 +30,18 @@ main{
     position: relative;
 }
 body{
-    width: 100%;
+
     font-size: 100%;
     list-style-type: none;
-    padding: 2.5rem 2rem ;
-    overflow-x: hidden;
-   
+    overflow-x: hidden; 
+    margin: 0 auto;
+}
+header {
+    width: 100%;
     margin: 0 auto;
 }
 header ul {
-    margin-left: 50rem;
-}
-#wrapper {
-    margin: 0 auto;
-    width: 100%;
-    margin: 0 auto;
+    margin-left: 58%;
 }
 #nav-itens0:hover {
     color: var(--Softorange);
@@ -133,11 +130,13 @@ header ul {
 }
 #hold-main {
     width: 115rem;    
-    padding: 0rem 13.7rem;
-}
-
-#hold-readmore {
     padding: 0rem 13.5rem;
+}
+#box-readmore {
+    margin-left: 3.5rem;
+}
+#hold-readmore {
+    padding: 0rem 11.5rem;
     width: 20rem;
 }
 #hold-readmore h1 {
@@ -173,13 +172,13 @@ header ul {
 .hold-sml-imgs {
     margin-right: 0;
     padding-right: 0;
-    margin-top: 4.5rem;
+    margin-top: 3rem;
     margin-right: 6.45rem;
     
     
 }
 footer .hold-sml-imgs:first-of-type {
-    margin-left: 13.8rem;
+    margin-left: 13.35rem;
 }
 .smaller-images {
     width: 9.8rem;
@@ -241,7 +240,7 @@ header ul {
 }
 #news {
     position: absolute;
-    left: 49.2rem;
+    left: 49rem;
     top: 24.5rem;
 }
 #read-more-box {
@@ -270,7 +269,7 @@ header ul {
 }
 
 #hold-readmore {
-    padding: 0rem 13.5rem;
+    padding: 0rem 9rem;
     width: 20rem;
 }
 #hold-readmore h1 {
@@ -282,22 +281,35 @@ header ul {
     position: absolute;
     width: 29.5rem;
     top: 48.65rem;
-    left: 13.8rem;
+    left: 14rem;
     
 }
 .hold-sml-imgs {
-    margin-top: 41rem;
+    margin-top: 43rem;
 }
 .hold-sml-imgs:last-of-type {
     position: absolute;
     top: 50rem;
-    left: 15.8rem;    
+    left: 10rem;    
 }
 .hold-sml-imgs:nth-child(1) {
-    margin-left: 5rem;
+    position: absolute;
+    left: 0.69rem;
+    top: 34; 
+}
+
+.hold-sml-imgs:nth-child(2) {
+    position: absolute;
+    left: 50.5rem;
+    top: 34rem;    
+}
+.hold-sml-imgs:nth-child(3) {
+    position: absolute;
+    left:14rem;
+    top: 48rem;    
 }
 .attribution {
-    margin-top: 17rem;
+    margin-top: 73rem;
 }
 }
 
@@ -323,7 +335,7 @@ header ul {
 }
 #news {
 top: 71rem;
-left: 19.45rem;
+left: 20.5rem;
 }
 #news h2 {
  text-align: center;
@@ -333,7 +345,7 @@ left: 19.45rem;
     position: absolute;
     width: 29.5rem;
     top: 48.8rem;
-    left: 13.8rem;
+    left: 15.2rem;
     
 }
 #box-readmore {
@@ -365,37 +377,134 @@ padding-bottom: 30rem;
     margin-left: 10rem;
     text-align: center;
 }
+#box-readmore {
+    padding-left: 5rem;
+}
 .hold-sml-imgs{
     padding-top: 38rem;
 }
 .hold-sml-imgs:last-of-type {
     position: absolute;
     top: 81rem;
-    left: 21.4rem;    
+    left: 20.95rem;    
 }
 
 .hold-sml-imgs:nth-child(1) {
     position: absolute;
-    left: 7.6rem;
+    left: 7.5rem;
     top: 48rem;
 
 
 }
 .hold-sml-imgs:nth-child(2) {
     position: absolute;
-    left: 21.4rem;
+    left: 21rem;
     top: 65rem;
 
 
 }
 .attribution {
-    margin-top: 110rem;
+    margin-top: 113rem;
 }
 }
 
 /* ------------------- RESOLUÇÃO 1620 QUEBRA ------------------- */
-@media (max-width: 920px) {
-
-
+@media (max-width: 600px) {
+    header {
+        padding: 2.5rem 12rem;
+    }
+    hr {
+        margin-bottom: 1.8rem;
+    }
+    main{
+        position: relative;
+    }
+    body{
+        font-size: 100%;
+        list-style-type: none;
+        overflow-x: hidden; 
+        margin: 0 auto;
+    }
+    #imagem-fundo {
+        background-image: url(/assets/images/image-web-3-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20rem;
+        height:23rem ;
+        padding-bottom: 0;
+        
+    }
+    header ul {
+        margin-left: 6.2rem;
+    }
+    #news {
+    top: 71rem;
+    left: 19.45rem;
+    }
+    #news h2 {
+     text-align: center;
+    }
     
+    #hold-readmore2 {
+        position: absolute;
+        width: 29.5rem;
+        top: 48.8rem;
+        left: 13.8rem;
+        
+    }
+    #box-readmore {
+        margin-left: 10rem;
+    }
+    #hold-readmore {
+    padding-bottom: 30rem;
+    }
+    #hold-readmore2 button {
+        margin-top: 1rem;
+        width: 14rem;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0.9rem;
+        color: white;
+        background-color: var(--Softred);
+        border-radius: 0px;
+        margin-left: 12.6rem;
+    }
+     h1 {
+        font-weight: bold;
+        font-size: 10rem;
+        text-align: center;
+    }
+    
+    #hold-readmore2 p {
+        font-size: 1.34rem;
+        margin-left: 10rem;
+        text-align: center;
+    }
+    .hold-sml-imgs{
+        padding-top: 38rem;
+    }
+    .hold-sml-imgs:last-of-type {
+        position: absolute;
+        top: 81rem;
+        left: 21.4rem;    
+    }
+    
+    .hold-sml-imgs:nth-child(1) {
+        position: absolute;
+        left: 7.6rem;
+        top: 48rem;
+    
+    
+    }
+    .hold-sml-imgs:nth-child(2) {
+        position: absolute;
+        left: 21.4rem;
+        top: 65rem;
+    
+    
+    }
+    .attribution {
+        margin-top: 110rem;
+    }
 }
